@@ -1,0 +1,865 @@
+fileFormatVersion: 2
+guid: 76701f357f39b2a448010b0daf9efbac
+timeCreated: 1461867757
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Camera
+    100004: Jaw
+    100006: LAnkle1
+    100008: LAnkle2
+    100010: LFoot
+    100012: LForearm
+    100014: LHand
+    100016: LHip
+    100018: Light
+    100020: LShin
+    100022: LShoulder
+    100024: LThigh
+    100026: LToe
+    100028: LUuperarm
+    100030: Pelvis
+    100032: RAnkle1
+    100034: RAnkle2
+    100036: RFoot
+    100038: RForearm
+    100040: RHand
+    100042: RHip
+    100044: RShin
+    100046: RShoulder
+    100048: RThigh
+    100050: RToe
+    100052: RUuperarm
+    100054: //RootNode
+    100056: Toad
+    100058: Tounge1
+    100060: Tounge2
+    400000: Body
+    400002: Camera
+    400004: Jaw
+    400006: LAnkle1
+    400008: LAnkle2
+    400010: LFoot
+    400012: LForearm
+    400014: LHand
+    400016: LHip
+    400018: Light
+    400020: LShin
+    400022: LShoulder
+    400024: LThigh
+    400026: LToe
+    400028: LUuperarm
+    400030: Pelvis
+    400032: RAnkle1
+    400034: RAnkle2
+    400036: RFoot
+    400038: RForearm
+    400040: RHand
+    400042: RHip
+    400044: RShin
+    400046: RShoulder
+    400048: RThigh
+    400050: RToe
+    400052: RUuperarm
+    400054: //RootNode
+    400056: Toad
+    400058: Tounge1
+    400060: Tounge2
+    4300000: Toad
+    7400000: Jump
+    7400002: Walk
+    7400004: Idle(1)
+    7400006: Die
+    7400008: Eat Down
+    7400010: Eat Up
+    7400012: Eat Middle
+    7400014: Idle(2)
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Toad
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Jump
+      takeName: Base Stack
+      firstFrame: 2
+      lastFrame: 27
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Toad
+        weight: 1
+      - path: Toad/Pelvis
+        weight: 1
+      - path: Toad/Pelvis/Body
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1/Tounge2
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm/LHand
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm/RHand
+        weight: 1
+      - path: Toad/Pelvis/LHip
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot/LToe
+        weight: 1
+      - path: Toad/Pelvis/RHip
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot/RToe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Base Stack
+      firstFrame: 30
+      lastFrame: 62
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Toad
+        weight: 1
+      - path: Toad/Pelvis
+        weight: 1
+      - path: Toad/Pelvis/Body
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1/Tounge2
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm/LHand
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm/RHand
+        weight: 1
+      - path: Toad/Pelvis/LHip
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot/LToe
+        weight: 1
+      - path: Toad/Pelvis/RHip
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot/RToe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle(1)
+      takeName: Base Stack
+      firstFrame: 65
+      lastFrame: 330
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Toad
+        weight: 1
+      - path: Toad/Pelvis
+        weight: 1
+      - path: Toad/Pelvis/Body
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1/Tounge2
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm/LHand
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm/RHand
+        weight: 1
+      - path: Toad/Pelvis/LHip
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot/LToe
+        weight: 1
+      - path: Toad/Pelvis/RHip
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot/RToe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Die
+      takeName: Base Stack
+      firstFrame: 331
+      lastFrame: 365
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Toad
+        weight: 1
+      - path: Toad/Pelvis
+        weight: 1
+      - path: Toad/Pelvis/Body
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1/Tounge2
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm/LHand
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm/RHand
+        weight: 1
+      - path: Toad/Pelvis/LHip
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot/LToe
+        weight: 1
+      - path: Toad/Pelvis/RHip
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot/RToe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Eat Down
+      takeName: Base Stack
+      firstFrame: 368
+      lastFrame: 393
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Toad
+        weight: 1
+      - path: Toad/Pelvis
+        weight: 1
+      - path: Toad/Pelvis/Body
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1/Tounge2
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm/LHand
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm/RHand
+        weight: 1
+      - path: Toad/Pelvis/LHip
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot/LToe
+        weight: 1
+      - path: Toad/Pelvis/RHip
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot/RToe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Eat Up
+      takeName: Base Stack
+      firstFrame: 394
+      lastFrame: 419
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Toad
+        weight: 1
+      - path: Toad/Pelvis
+        weight: 1
+      - path: Toad/Pelvis/Body
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1/Tounge2
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm/LHand
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm/RHand
+        weight: 1
+      - path: Toad/Pelvis/LHip
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot/LToe
+        weight: 1
+      - path: Toad/Pelvis/RHip
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot/RToe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Eat Middle
+      takeName: Base Stack
+      firstFrame: 420
+      lastFrame: 445
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Toad
+        weight: 1
+      - path: Toad/Pelvis
+        weight: 1
+      - path: Toad/Pelvis/Body
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1/Tounge2
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm/LHand
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm/RHand
+        weight: 1
+      - path: Toad/Pelvis/LHip
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot/LToe
+        weight: 1
+      - path: Toad/Pelvis/RHip
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot/RToe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle(2)
+      takeName: Base Stack
+      firstFrame: 448
+      lastFrame: 1112
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: Toad
+        weight: 1
+      - path: Toad/Pelvis
+        weight: 1
+      - path: Toad/Pelvis/Body
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1
+        weight: 1
+      - path: Toad/Pelvis/Body/Jaw/Tounge1/Tounge2
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/LShoulder/LUuperarm/LForearm/LHand
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm
+        weight: 1
+      - path: Toad/Pelvis/Body/RShoulder/RUuperarm/RForearm/RHand
+        weight: 1
+      - path: Toad/Pelvis/LHip
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot
+        weight: 1
+      - path: Toad/Pelvis/LHip/LThigh/LShin/LAnkle1/LAnkle2/LFoot/LToe
+        weight: 1
+      - path: Toad/Pelvis/RHip
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot
+        weight: 1
+      - path: Toad/Pelvis/RHip/RThigh/RShin/RAnkle1/RAnkle2/RFoot/RToe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
