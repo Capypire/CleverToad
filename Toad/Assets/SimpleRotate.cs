@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SimpleRotate : MonoBehaviour
 {
@@ -13,8 +14,12 @@ public class SimpleRotate : MonoBehaviour
     public Transform target;
     private float Orotation;
     public Animator animator;
+    public Button button;
 
     public AudioSource randomSound;
+
+    public AudioClip coinAudio;
+    public AudioClip musicAudio;
 
     public AudioClip[] audioSourcesAdverb;
     public AudioClip[] audioSourcesInstruct;
@@ -38,18 +43,23 @@ public class SimpleRotate : MonoBehaviour
     private void Start()
     {
         Orotation = transform.rotation.y;
-       
+        button.interactable = true;
     }
 
     public void Talk()
     {
-        StartCoroutine(Rotate());
+        //randomSound.clip = coinAudio;
+        StartCoroutine(Activate());
+
+      //  randomSound.clip = musicAudio;
+        //StartCoroutine(Rotate());
        // CallAudio();
     }
 
 
     void CallAudio(int count)
     {
+
         switch (count)
         {
             case 0: {
@@ -96,8 +106,40 @@ public class SimpleRotate : MonoBehaviour
        
     }
 
+    private IEnumerator Activate()
+    {
+        //WaitForSeconds WaitNow = new WaitForSeconds(
+        int i = 0;
+        while (i < 2)
+        {
+            if( i == 0)
+            {
+                randomSound.clip = coinAudio;
+                randomSound.Play();
+                while(randomSound.isPlaying)
+                {
+                    yield return null;
+                }
+                i++;
+            }
+            if (i == 1)
+            {
+                randomSound.clip = musicAudio;
+                randomSound.Play();
+                while (randomSound.isPlaying)
+                {
+                    yield return null;
+                }
+                i++;
+            }
+            yield return Rotate();
+        }
+        
+    }
+
     private IEnumerator Rotate()
     {
+        button.interactable = false;
         WaitForSeconds Wait = new WaitForSeconds(1f / TicksPerSecond);
         int i = 0;
         CallAudio(i);
@@ -132,5 +174,6 @@ public class SimpleRotate : MonoBehaviour
 
             yield return Wait;
         }
+        button.interactable = true;
     }
 }
