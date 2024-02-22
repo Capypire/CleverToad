@@ -1629,6 +1629,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a61111944739bcd41b20cc9bb0d7b22d, type: 3}
   - {fileID: 8300000, guid: e1a6ebb10ed498a45ac3fac5a3192b28, type: 3}
   - {fileID: 8300000, guid: d80b2eaa98c60d14a86910a632290ae7, type: 3}
+  - {fileID: 8300000, guid: 7b5a461b698e3734294572d23b2a6895, type: 3}
   audioSourcesVerb:
   - {fileID: 8300000, guid: 8901d9df6892f6147a8c9a92598bf443, type: 3}
   - {fileID: 8300000, guid: 0b42fb7a86569764ea5a527259414c94, type: 3}
@@ -1646,6 +1647,15 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e27baedc45bc2b6469827e19a10504d6, type: 3}
   - {fileID: 8300000, guid: a2b287d6c9c84b243a389baedbbd960e, type: 3}
   - {fileID: 8300000, guid: ba271f5259b84f14899dcddbbf0b7a2b, type: 3}
+  - {fileID: 8300000, guid: 0618b5af3e05a694790e394d93bbc3d5, type: 3}
+  - {fileID: 8300000, guid: 64ae08092e862754fa168af4b02f2692, type: 3}
+  - {fileID: 8300000, guid: 2c01cdf468629da4389b3a0533b5471e, type: 3}
+  - {fileID: 8300000, guid: ce090051b128dfa498bf7e35460af1f1, type: 3}
+  - {fileID: 8300000, guid: 1af769c80348a0a4a8d3d28ac657b3a3, type: 3}
+  - {fileID: 8300000, guid: 08b10fdd1007fbb47ae971bbe46144a4, type: 3}
+  - {fileID: 8300000, guid: ad89a31ada55448449e5dfb891e79653, type: 3}
+  - {fileID: 8300000, guid: 9b6140ae8906c7b41a9660d05aae5dad, type: 3}
+  - {fileID: 8300000, guid: 1547dcfaf0dd55241881da1000ccf429, type: 3}
   audioSourcesNoun:
   - {fileID: 8300000, guid: 374bcb9db4718ca47bd6f4aa3410d6f2, type: 3}
   - {fileID: 8300000, guid: 638099aae2133254b8605bafc7d73fef, type: 3}
@@ -1673,6 +1683,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b5134a7861883034c80b4f91979746e7, type: 3}
   - {fileID: 8300000, guid: d302b223727c32d4b8273610950f60c4, type: 3}
   - {fileID: 8300000, guid: fd82e41c70eba5246bd8bbaef43b40c6, type: 3}
+  - {fileID: 8300000, guid: 8e2d71fb9e25a3e4192536a2b25ba398, type: 3}
+  - {fileID: 8300000, guid: e467c9d6bc53d4f40bed5cb81ac20801, type: 3}
+  - {fileID: 8300000, guid: 62a1ac9ec76c80045a5da17d92ddc17c, type: 3}
+  - {fileID: 8300000, guid: 31d89e216db689044bd9c6394afb511f, type: 3}
+  - {fileID: 8300000, guid: 7cdabe50da208734a8a7377689d96dfa, type: 3}
 --- !u!1 &1671843080
 GameObject:
   m_ObjectHideFlags: 0
